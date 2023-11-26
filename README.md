@@ -3,8 +3,8 @@
 ## Project Struture
 
 project-root-directory/
-
-|
+<br>
+│
 ├── data/                  
 │   ├── tfrecord_files       
 │   └── tfindex_files          
@@ -14,12 +14,17 @@ project-root-directory/
 │   └── checkpoint2.pt                 
 │
 ├── Myloader.py
+|
 ├── model.py
+|
 ├── train.ipynb
 |
 ├── SimCLR_data.py
+|
 ├── ssl_encoder.py
+|
 ├── SimCLR.ipynb
+|
 ├── ssl_pretrain.ipynb
 |
 └── counting.ipynb
