@@ -13,21 +13,21 @@ project-root-directory/
 │   ├── checkpoint1.pt        
 │   └── checkpoint2.pt                 
 │
-├── Myloader.py
+├── Myloader.py <br>
 |
-├── model.py
+├── model.py <br>
 |
-├── train.ipynb
+├── train.ipynb <br>
 |
-├── SimCLR_data.py
+├── SimCLR_data.py <br>
 |
-├── ssl_encoder.py
+├── ssl_encoder.py <br>
 |
-├── SimCLR.ipynb
+├── SimCLR.ipynb <br>
 |
-├── ssl_pretrain.ipynb
+├── ssl_pretrain.ipynb <br>
 |
-└── counting.ipynb
+└── counting.ipynb <br>
 
 ## Usage
 Run train.ipynb for ResNet18 backbone or ssl_pretrain.ipynb for SimCLR backbone.
