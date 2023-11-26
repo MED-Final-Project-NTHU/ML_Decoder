@@ -3,6 +3,7 @@
 ## Project Struture
 
 project-root-directory/
+|
 ├── data/                  
 │   ├── tfrecord_files       
 │   └── tfindex_files          
