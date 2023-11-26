@@ -13,9 +13,11 @@ project-root-directory/
 │   ├── checkpoint1.pt        
 │   └── checkpoint2.pt                 
 │
-├── Myloader.py <br>
+├── Myloader.py
+<br>
 |
-├── model.py <br>
+├── model.py 
+<br>
 |
 ├── train.ipynb <br>
 |
