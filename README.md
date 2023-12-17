@@ -1,6 +1,21 @@
-# SSL_Ensemble
+## Root Folder - ML decoder
 
-## Usage
+### Usage
+Install the packages in requirements.txt.
+
+<br>
+
+Run run_tran.py to train convnext + ML decoder network.
+
+<br>
+
+(Note: You can change the XRay_Dataset to the original dataset format)
+
+
+
+## Foler ssl - SSL_Ensemble
+
+### Usage
 Run train.ipynb for ResNet18 backbone or ssl_pretrain.ipynb for SimCLR backbone.
 
 <br>
