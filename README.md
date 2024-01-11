@@ -1,27 +1,38 @@
+# ML Decoder
+
 ## Root Folder - ML decoder
 
 ### Usage
-Install the packages in requirements.txt.
+1. Install the required packages by running the following command in your terminal:
 
-<br>
+```bash
+pip install -r requirements.txt
+```
 
-Run run_tran.py to train convnext + ML decoder network.
 
-<br>
+2. To train the ConvNet + ML decoder network, run the following command:
+
+```bash
+python run_train.py
+```
 
 (Note: You can change the XRay_Dataset to the original dataset format)
 
+  Note: You can modify the `XRay_Dataset` to match the original dataset format.
 
+---
 
-## Foler ssl - SSL_Ensemble
+## Folder ssl - SSL_Ensemble
 
 ### Usage
-Run train.ipynb for ResNet18 backbone or ssl_pretrain.ipynb for SimCLR backbone.
+1. For ResNet18 backbone, open and run the `train.ipynb` notebook.
 
-<br>
+2. For SimCLR backbone, open and run the `ssl_pretrain.ipynb` notebook.
 
-The evaluation function for calculating average precision per-class is in train.ipynb.
+3. To calculate the average precision per-class during evaluation, refer to the evaluation function in the `train.ipynb` notebook.
 
-<br>
+4. To visualize the data distribution for the X-ray dataset, you can use the `counting.ipynb` notebook.
 
-The file counting.ipynb shows the data distribution for the X-ray dataset.
+---
+
+Feel free to explore and use the provided scripts and notebooks in this repository for your machine learning decoder project. If you encounter any issues or have questions, please don't hesitate to reach out.
