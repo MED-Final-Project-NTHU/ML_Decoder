@@ -13,7 +13,7 @@ pip install -r requirements.txt
 2. To train the ConvNet + ML decoder network, run the following command:
 
 ```bash
-python run_train.py
+python run_tran.py
 ```
 
 (Note: You can change the XRay_Dataset to the original dataset format)
