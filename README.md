@@ -9,16 +9,25 @@
 pip install -r requirements.txt
 ```
 
+2. Downloading Data: Before running the ML decoder, you need to download the required data. 
 
-2. To train the ConvNet + ML decoder network, run the following command:
+- Download the image folder from [Download Link](insert_link_here) and save it to the `data/` folder.
+   
+- Download the CSV file from [Download Link](insert_link_here) and also save it to the `data/` folder.
+
+- Your 'data' folder structure should look like this:
+
+    - **data/**
+        - **(Place the downloaded image files here)**
+        - **(Place the downloaded CSV file here)**
+
+3. To train the ConvNet + ML decoder network, run the following command:
 
 ```bash
 python run_tran.py
 ```
 
 (Note: You can change the XRay_Dataset to the original dataset format)
-
-  Note: You can modify the `XRay_Dataset` to match the original dataset format.
 
 ---
 
