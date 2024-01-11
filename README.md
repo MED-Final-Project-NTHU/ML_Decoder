@@ -11,14 +11,14 @@ pip install -r requirements.txt
 
 2. Downloading Data: Before running the ML decoder, you need to download the required data. 
 
-- Download the image folder from [Download Link](insert_link_here) and save it to the `data/` folder.
+- Download the image folder from [Download Link](https://drive.google.com/file/d/1_FwVssIrtRyVRKerhXIpyi7mr4fluvSr/view?usp=drive_link), extract and save it to the `data/` folder.
    
-- Download the CSV file from [Download Link](insert_link_here) and also save it to the `data/` folder.
+- Download the CSV file from [Download Link](https://drive.google.com/file/d/1LGrD4MkoDFHo4pUNmXQLmRXRlOZADFSd/view?usp=drive_link) and also save it to the `data/` folder.
 
 - Your 'data' folder structure should look like this:
 
     - **data/**
-        - **(Place the downloaded image files here)**
+        - **(Place the downloaded image folder here)**
         - **(Place the downloaded CSV file here)**
 
 3. To train the ConvNet + ML decoder network, run the following command:
