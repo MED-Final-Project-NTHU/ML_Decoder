@@ -15,11 +15,14 @@ pip install -r requirements.txt
    
 - Download the CSV file from [Download Link](https://drive.google.com/file/d/1LGrD4MkoDFHo4pUNmXQLmRXRlOZADFSd/view?usp=drive_link) and also save it to the `data/` folder.
 
+- Download the tfrecord, tfindex files start with MICCAI from [Download Link](https://drive.google.com/drive/folders/1vIGUboqMDf4osIzKLp0AF0ow1kgLT70x?usp=drive_link) and also save it to the `data/` folder.
+
 - Your 'data' folder structure should look like this:
 
     - **data/**
         - **(Place the downloaded image folder here)**
         - **(Place the downloaded CSV file here)**
+        - **(Place the downloaded tf record, index files here)**
 
 3. To train the ConvNet + ML decoder network, run the following command:
 
